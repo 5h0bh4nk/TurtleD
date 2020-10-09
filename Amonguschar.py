@@ -1,9 +1,7 @@
 import turtle
 
 BODY_COLOR = 'red'
-BODY_SHADOW = ''
 GLASS_COLOR = 'skyblue'
-GLASS_SHADOW = ''
 
 s= turtle.getscreen()
 t = turtle.Turtle()
@@ -71,7 +69,6 @@ def glass():
     t.forward(110)
     t.right(180)
 
-    #t.right(180)
     t.circle(50,-190)
     t.right(170)
     t.forward(80)
